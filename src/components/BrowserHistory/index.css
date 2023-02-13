@@ -1,0 +1,51 @@
+.list-items {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  list-style-type: none;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.list-items-container {
+  display: flex;
+}
+
+.list-container {
+  display: flex;
+  align-items: center;
+}
+.card-Container {
+  display: flex;
+  align-items: center;
+}
+.time {
+  align-self: start;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+  margin-right: 20px;
+}
+
+.logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.description {
+  padding-left: 5px;
+}
+.button-container {
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  margin-left: auto;
+}
+.delete-icon {
+}
+.button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
